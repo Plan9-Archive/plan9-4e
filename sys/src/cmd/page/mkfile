@@ -1,0 +1,22 @@
+</$objtype/mkfile
+
+TARG=page
+
+HFILES=page.h
+OFILES=\
+	filter.$O\
+	gfx.$O\
+	gs.$O\
+	page.$O\
+	pdf.$O\
+	ps.$O\
+	rotate.$O\
+	util.$O\
+	view.$O\
+
+LIB=/$objtype/lib/libdraw.a
+</sys/src/cmd/mkone
+
+BIN=/$objtype/bin
+
+

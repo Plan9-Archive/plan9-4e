@@ -1,0 +1,63 @@
+dev
+	root
+	cons
+	arch
+	pnp		pci
+	env
+	pipe
+	proc
+	mnt
+	srv
+	dup
+	rtc
+	ssl
+	tls
+	bridge		log
+	sdp		thwack unthwack
+	cap
+	kprof
+
+	ether		netif
+	ip		arp chandial ip ipaux iproute netlog nullmedium pktmedium ptclbsum386 inferno
+
+	sd
+	floppy		dma
+
+	uart
+
+link
+	ether2114x	pci
+	ether82543gc	pci
+	ether82557	pci
+	etherelnk3	pci
+	ethermedium
+	loopbackmedium
+
+misc
+	edf
+	archmp		mp apic
+
+	uarti8250
+
+	sdata		pci sdscsi
+	sd53c8xx	pci sdscsi
+
+	ipconfig.root
+	factotum.root
+
+ip
+	il
+	tcp
+	udp
+	ipifc
+	icmp
+	gre
+	ipmux
+	esp
+	rudp
+
+port
+	int cpuserver = 1;
+
+boot cpu
+	il

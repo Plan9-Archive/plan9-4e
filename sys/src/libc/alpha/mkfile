@@ -1,0 +1,31 @@
+objtype=alpha
+</$objtype/mkfile
+
+LIB=/$objtype/lib/libc.a
+OFILES=\
+	main9.$O\
+	main9p.$O\
+	argv0.$O\
+	divl.$O\
+	divq.$O\
+	getcallerpc.$O\
+	getfcr.$O\
+	memmove.$O\
+	memset.$O\
+	notejmp.$O\
+	_seek.$O\
+	setjmp.$O\
+	tas.$O\
+
+FOO=\
+	memchr.$O\
+	memcmp.$O\
+	memcpy.$O\
+	strchr.$O\
+	strcmp.$O\
+	strcpy.$O\
+	strncmp.$O\
+
+HFILES=/sys/include/libc.h
+
+</sys/src/cmd/mksyslib

@@ -1,0 +1,11 @@
+</$objtype/mkfile
+
+LIB=/$objtype/lib/libplumb.a
+OFILES=\
+	event.$O\
+	mesg.$O\
+	plumbsendtext.$O\
+
+HFILES=/sys/include/plumb.h
+
+</sys/src/cmd/mksyslib
